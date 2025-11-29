@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { QuizCard } from "@/components/QuizCard";
 import { quizzes } from "@/data/quizzes";
-import { supabase } from "@/lib/supabase';
+import { supabase } from "@/lib/supabase";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Search, Send } from "lucide-react";
